@@ -1,6 +1,6 @@
 {
   "name": "base64-2-img",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A library for converting an image url or file to base64 string and base64 string back to an image file.",
   "main": "index.js",
   "dependencies": {
