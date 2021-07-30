@@ -1,0 +1,27 @@
+{
+  "cache": false,
+  "check-coverage": true,
+  "extension": [
+    ".js"
+  ],
+  "include": [
+    "**/*.js"
+  ],
+  "exclude": [
+    "dist/**",
+    "coverage/**",
+    "node_modules/**",
+    "**/*.d.ts",
+    "**/tests/**",
+    "example/**"
+  ],
+  "sourceMap": true,
+  "reporter": [
+    "lcov",
+    "html",
+    "text",
+    "text-summary"
+  ],
+  "all": true,
+  "instrument": true
+}
