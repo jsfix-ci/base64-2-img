@@ -42,6 +42,7 @@
     "type": "git",
     "url": "git+https://github.com/ajimae/base64-2-img.git"
   },
+  "files": ["src/**", "package.json", "LICENSE", "README.md"],
   "private": false,
   "directories": {
     "example": "example",
