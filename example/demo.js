@@ -6,7 +6,7 @@ const { base64ToImage, imageToBase64 } = require("../index");
 
 const url = 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80' // random image from google
 imageToBase64(url).then(function(base64String) {
-  // console.log(base64String);
+  // console.log(base64String); // data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASA...
 });
 
 async function main() {

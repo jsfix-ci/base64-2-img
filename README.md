@@ -1,6 +1,6 @@
 # Base64-2-img
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/ajimae/base64-2-img/qa/master) [![Coverage Status](https://coveralls.io/repos/github/ajimae/base64-2-img/badge.svg?branch=master)](https://coveralls.io/github/ajimae/base64-2-img?branch=master) ![GitHub](https://img.shields.io/github/license/ajimae/base64-2-img)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/ajimae/base64-2-img/qa/master) ![Coveralls branch](https://img.shields.io/coveralls/github/ajimae/base64-2-img/master) ![GitHub](https://img.shields.io/github/license/ajimae/base64-2-img)
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ajimae/base64-2-img?color=%23D8B024&include_prereleases) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ajimae/base64-2-img)](https://github/languages/code-size/ajimae/base64-2-img) [![GitHub issues](https://img.shields.io/github/issues/ajimae/base64-2-img)](https://github.com/ajimae/base64-2-img/issues)
 
