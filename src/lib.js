@@ -104,7 +104,7 @@ async function readImageAndConvert(fileName) {
   /* istanbul ignore next */
   if (fs.statSync(fileName).isFile()) {
     // var mime = await imageType(fileName);
-    var { mime } = await fileType.fromFile(fileName);
+    var { mime } = await fileType.fileTypeFromFile(fileName);
     var base64String = base64ToNode(fs.readFileSync(path.resolve(fileName)).toString('base64'));
 
     return `data:${mime};base64,${base64String}`;
@@ -153,7 +153,7 @@ function writeImageFileToDisk(options) {
         throw e;
       }
     }
-  })
+  });
 }
 
 /**
